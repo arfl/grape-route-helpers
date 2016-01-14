@@ -14,6 +14,10 @@ module Spec
         'pong'
       end
 
+      get 'ping' do
+        'pong'
+      end
+
       resource :cats do
         get '/' do
           %w(cats cats cats)
